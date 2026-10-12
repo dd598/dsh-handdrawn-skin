@@ -38,10 +38,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OWNER/dsh-handdrawn-skin.git"
+    "url": "git+https://github.com/dd598/dsh-handdrawn-skin.git"
   },
-  "homepage": "https://github.com/OWNER/dsh-handdrawn-skin#readme",
+  "homepage": "https://github.com/dd598/dsh-handdrawn-skin#readme",
   "bugs": {
-    "url": "https://github.com/OWNER/dsh-handdrawn-skin/issues"
+    "url": "https://github.com/dd598/dsh-handdrawn-skin/issues"
   }
 }

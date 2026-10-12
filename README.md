@@ -3,7 +3,9 @@
 > 给 **DeepSeek Harness** Web 界面换上「纸 + 墨」的单色素描观感。
 > A hand-drawn ink-on-paper skin for the DeepSeek Harness Web UI.
 
-![预览 / Preview](preview/light.png)
+<!-- 预览图：把截图放到 preview/light.png（深色主题放 preview/dark.png），
+     然后取消下面这行的注释即可 -->
+<!-- ![预览 / Preview](preview/light.png) -->
 
 ---
 
@@ -23,7 +25,7 @@
 ### 方式一：`dsh plugin`（推荐）
 
 ```bash
-git clone https://github.com/OWNER/dsh-handdrawn-skin.git
+git clone https://github.com/dd598/dsh-handdrawn-skin.git
 dsh plugin --profile <你的 profile> add ./dsh-handdrawn-skin
 ```
 
