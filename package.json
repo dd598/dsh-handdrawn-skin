@@ -1,0 +1,47 @@
+{
+  "name": "dsh-handdrawn-skin",
+  "version": "1.0.0",
+  "description": "手绘素描风皮肤：纸 + 墨的单色观感 —— 墨黑强调色、牛皮纸颗粒、马克笔轻描边、铅笔细线、楷体标题。",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./client/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web"
+    }
+  },
+  "files": [
+    "lib",
+    "client",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "skin",
+    "theme",
+    "hand-drawn",
+    "paper",
+    "ink"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OWNER/dsh-handdrawn-skin.git"
+  },
+  "homepage": "https://github.com/OWNER/dsh-handdrawn-skin#readme",
+  "bugs": {
+    "url": "https://github.com/OWNER/dsh-handdrawn-skin/issues"
+  }
+}

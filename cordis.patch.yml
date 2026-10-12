@@ -1,0 +1,4 @@
+# dsh bundle patch: mounts the hand-drawn skin (host half + web client half).
+- insert:
+    - id: dsh-handdrawn-skin
+      name: 'dsh-handdrawn-skin'
